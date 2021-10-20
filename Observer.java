@@ -4,5 +4,5 @@
 
 public interface Observer{
     
-    public void update();
+    public void update(Weapon sword, int health, Item item);
 }
